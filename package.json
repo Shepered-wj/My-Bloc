@@ -1,0 +1,35 @@
+{
+  "name": "Sppx",
+  "version": "1.0.0",
+  "description": "一个简单的博客",
+  "main": "index.js",
+  "author": "wj",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev . --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "github-markdown-css": "^4.0.0",
+    "highlight.js": "^11.2.0",
+    "markdown-it": "^12.2.0",
+    "markdown-it-container": "^3.0.0",
+    "markdown-loader": "^6.0.0",
+    "vue-canvas-effect": "^0.0.12",
+    "vue-class-component": "^7.2.3",
+    "vue-loader": "^15.9.8",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  }
+}
