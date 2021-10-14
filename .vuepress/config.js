@@ -3,7 +3,7 @@ module.exports = {
   "title": "Sppx的博客",
   "description": "Sppx的博客",
   "dest": "public",
-  "base": "/",
+  "base": "/My-Bloc/",
   "head": [
     [
       "link",
